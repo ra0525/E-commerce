@@ -16,3 +16,25 @@
   height: 150px;
   object-fit: contain;
 }
+
+.product-card .price {
+  font-size: 25px;
+}
+
+.product-card .star-rating {
+  display: flex;
+  gap: 4px;
+  margin: 5px 0;
+}
+
+.rating-center {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+/* .star-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+} */

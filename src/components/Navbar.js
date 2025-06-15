@@ -1,17 +1,19 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { CartContext } from './CartContext';
+import { useCart } from './CartContext';
 import '../styles/Navbar.css';
 
+
 const Navbar = () => {
-  const { cartItems } = useContext(CartContext);
+  const { getTotalUniqueItems } = useCart();
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo">ShopifyClone</Link>
-      <Link to="/cart" className="cart-link">
-        Cart ({cartItems.reduce((acc, item) => acc + item.quantity, 0)})
-      </Link>
+      <div className="logo">My E-Commerce Store</div>
+      <div className="nav-links">
+        <Link to="/">Home</Link>
+        <Link to="/cart">Cart ({getTotalUniqueItems()})</Link>
+      </div>
     </nav>
   );
 };

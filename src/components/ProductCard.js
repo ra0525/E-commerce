@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/ProductCard.css';
+import StarRating from './StarRating';
 
 const ProductCard = ({ product }) => {
   return (
@@ -9,8 +10,10 @@ const ProductCard = ({ product }) => {
         <img src={product.images[0]} alt={product.name} className="product-image"/>
         <h3>{product.name}</h3>
       </Link>
-      <p>₹{product.price}</p>
-      <p>Rating: {product.rating}⭐</p>
+      <p className='price'>₹{product.price}</p>
+      <div className="rating-center">
+        <StarRating rating={product.rating} size= {18} />
+      </div>
     </div>
   );
 };

@@ -4,10 +4,10 @@ import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
 import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
-import CartProvider from './components/CartContext';
+import { CartProvider } from './components/CartContext';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <CartProvider>
       <Router>
@@ -20,6 +20,6 @@ function App() {
       </Router>
     </CartProvider>
   );
-}
+};
 
 export default App;
