@@ -182,6 +182,118 @@ const products = [
       "Batteries Required": "No",
       "Manufacturer": "Voltas"
     }
+  },
+  {
+    id: 4,
+    name: "boAt Wave Fury with 1.83'' HD Display, Bluetooth Calling & Functional Crown Smartwatch  (Green Strap, Free Size)",
+    price: 1399,
+    rating: 4.1,
+    category: "Smart Watches",
+    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/t/w/q/-original-imagr6xthsrhvsu3.jpeg?q=70&crop=false",
+    images: [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/t/w/q/-original-imagr6xthsrhvsu3.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/s/c/a/-original-imagx42xuvycmed7.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/d/d/o/-original-imagr6xtsfpkg96n.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/c/t/b/-original-imagr6xtpsgebhfk.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/1/o/q/-original-imagr6xtyhrtzevs.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/1/b/3/-original-imagsgj9hxcztkcb.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/q/p/m/-original-imagr6xthunbh7uj.jpeg?q=70&crop=false"
+    ],
+    specifications: {
+      "Brand": "boAt",
+      "Compatible OS": "Android & iOS",
+      "Special Feature":	"Bluetooth Calling",
+      "Connectivity Technology":	"Bluetooth"
+    },
+    description: [
+      "1.83 HD Display: Dive into the immersive experience of the large 1.83 HD Display, where you can easily monitor every incoming call, reminder, and message showcased on your Wave Fury in remarkable clarity.",
+      "Functional Crown: Revolutionize your experience with effortless navigation. Seamlessly scroll, zoom, and select with a twist and a tap.",
+      "Bluetooth Calling: With its cutting-edge technology, you can make and receive calls seamlessly, thanks to the integrated premium built-in microphone and speaker along with an Interactive Dialpad.",
+      "Multiple Sports Modes: Achieve your fitness goals, track your workouts, and push your limits like never before.",
+      "Health and Wellness: Heart Rate Monitoring, SpO2 Monitoring, Sleep Monitoring",
+      "With Call Function",
+      "Touchscreen",
+      "Fitness & Outdoor"
+    ],
+    technicalDetails: {
+      "Brand": "boAt",
+      "Sales Package": "Wave Fury::User Manual::Warranty Card::USB Magnetic Charging Cable",
+      "Model Number":	"Wave Fury",
+      "Model Name":	"Wave Fury with 1.83'' HD Display, Bluetooth Calling & Functional Crown",
+      "Dial Shape": "Rectangle",
+      "Strap Color": "Green",
+      "Strap Material":	"Silicone",
+      "Touchscreen":	"Yes",
+      "Water Resistant":	"Yes",
+      "Sensor":	"Accelerometer, HR and SpO2",
+      "Notification":	"Text, Call and Social media",
+      "Battery Life":	"7 Days",
+      "Display Resolution":	"240x284 pixel",
+      "Display Size":	"1.83 inch",
+      "Step Count/Heart Rate Monitor":	"Yes",
+      "Date & Time Display":	"Yes",
+      "Calendar":	"Yes",
+      "Alarm Clock": "Yes",
+      "Speaker/Microphone": "Yes",
+      "Warranty Summary": "1 year warranty from the date of purchase",
+      "Covered in Warranty": "Manufacturing Defects"
+    }
+  },
+  {
+    id: 5,
+    name: "Samsung 653 L, 3 Star, Frost Free, Double Door, Convertible 5-in-1 Digital Inverter, Side By Side AI Enabled Smart Refrigerator with WiFi (RS76CG8003S9HL, Silver, Refined Inox)",
+    price: 79990,
+    rating: 4.1,
+    category: "Refrigerators",
+    image: "https://m.media-amazon.com/images/I/517RRNPv9AL._SL1500_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/517RRNPv9AL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71HOtMLnVqL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71q24V7Zv4L._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/61NdbVyFibL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61j+bX292+L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61LC5JWfkWL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ZaTFauqJL._SL1500_.jpg"
+    ],
+    specifications: {
+      "Brand": "boAt",
+      "Compatible OS": "Android & iOS",
+      "Special Feature":	"Bluetooth Calling",
+      "Connectivity Technology":	"Bluetooth"
+    },
+    description: [
+      "1.83 HD Display: Dive into the immersive experience of the large 1.83 HD Display, where you can easily monitor every incoming call, reminder, and message showcased on your Wave Fury in remarkable clarity.",
+      "Functional Crown: Revolutionize your experience with effortless navigation. Seamlessly scroll, zoom, and select with a twist and a tap.",
+      "Bluetooth Calling: With its cutting-edge technology, you can make and receive calls seamlessly, thanks to the integrated premium built-in microphone and speaker along with an Interactive Dialpad.",
+      "Multiple Sports Modes: Achieve your fitness goals, track your workouts, and push your limits like never before.",
+      "Health and Wellness: Heart Rate Monitoring, SpO2 Monitoring, Sleep Monitoring",
+      "With Call Function",
+      "Touchscreen",
+      "Fitness & Outdoor"
+    ],
+    technicalDetails: {
+      "Brand": "boAt",
+      "Sales Package": "Wave Fury::User Manual::Warranty Card::USB Magnetic Charging Cable",
+      "Model Number":	"Wave Fury",
+      "Model Name":	"Wave Fury with 1.83'' HD Display, Bluetooth Calling & Functional Crown",
+      "Dial Shape": "Rectangle",
+      "Strap Color": "Green",
+      "Strap Material":	"Silicone",
+      "Touchscreen":	"Yes",
+      "Water Resistant":	"Yes",
+      "Sensor":	"Accelerometer, HR and SpO2",
+      "Notification":	"Text, Call and Social media",
+      "Battery Life":	"7 Days",
+      "Display Resolution":	"240x284 pixel",
+      "Display Size":	"1.83 inch",
+      "Step Count/Heart Rate Monitor":	"Yes",
+      "Date & Time Display":	"Yes",
+      "Calendar":	"Yes",
+      "Alarm Clock": "Yes",
+      "Speaker/Microphone": "Yes",
+      "Warranty Summary": "1 year warranty from the date of purchase",
+      "Covered in Warranty": "Manufacturing Defects"
+    }
   }
 ];
 

@@ -8,8 +8,8 @@
 
 .image-section {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  /* flex-direction: row;
+  align-items: flex-start; */
   gap: 15px;
 }
 
@@ -20,10 +20,11 @@
 }
 
 .thumbnail {
-  width: 50px;
-  height: 70px;
+  width: 45px;
+  height: 55px;
   object-fit: cover;
   border: 2px solid transparent;
+  /* border: 1px solid #ddd; */
   cursor: pointer;
   transition: border 0.3s;
   border-radius: 10px;
@@ -35,15 +36,19 @@
 }
 
 .main-image-container {
-  flex: 1;
-  max-width: 400px;
+  width: 400px;
+  height: 400px;
+  /* border: 1px solid #ddd; */
+  /* padding: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-image {
   width: 100%;
-  max-height: 400px;
+  height: 100%;
   object-fit: contain;
-  border: 1px solid #ccc;
   transition: transform 0.3s;
 }
 
@@ -53,23 +58,29 @@
 
 .details-section {
   flex: 1;
-  min-width: 300px;
+  /* display: flex; */
+  flex-direction: column;
+  gap: 5px;
+  /* flex: 1;
+  min-width: 300px; */
 }
 
 .details-section h2 {
   font-size: 33px;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 .price {
   font-size: 28px;
   color: black;
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
 
 .section {
-  padding-bottom: 5px;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  /* padding-bottom: 5px;
+  margin-bottom: 5px; */
 }
 
 .spec-table {
