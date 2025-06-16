@@ -1,11 +1,13 @@
 .search-bar {
   padding: 10px 20px;
   text-align: center;
+  background-color: #2b60a1;
 }
 
 .search-bar input {
   width: 60%;
-  padding: 8px;
+  padding: 5px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 8px;
+  font-size: 18px;
 }

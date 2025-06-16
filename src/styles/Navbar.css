@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #232f3e; /* Amazon-like dark blue */
-  padding: 10px 20px;
+  padding: 15px 20px;
   color: white;
 }
 
@@ -17,7 +17,7 @@
 
 .navbar-title {
   margin: 0;
-  font-size: 24px;
+  font-size: 35px;
 }
 
 .navbar-link {
@@ -29,12 +29,14 @@
 }
 
 .navbar-link.left {
-  padding: 8px 20px 8px 5px;
+  padding: 2px 8px 2px 5px;
+  font-size: 25px;
 }
 
 .navbar-link.right {
-  padding: 8px 5px 8px 20px;
+  padding: 2px 5px 2px 8px;
   float: right; /* Ensures Cart goes extreme right */
+  font-size: 25px;
 }
 
 .navbar-link.left:hover,

@@ -15,10 +15,12 @@ const ProductList = () => {
       (category === 'All' || p.category === category) &&
       p.name.toLowerCase().includes(searchTerm.toLowerCase())
     )
-    .sort((a, b) => {
-      if (sort === 'price') return a.price - b.price;
-      if (sort === 'rating') return b.rating - a.rating;
-      return 0;
+    const sortedProducts = [...filteredProducts].sort((a, b) => {
+    if (sort === 'lowToHigh') return a.price - b.price;
+    if (sort === 'highToLow') return b.price - a.price;
+    if (sort === 'rating') return b.rating - a.rating;
+    if (sort === 'ratinglowtohigh') return a.rating - b.rating;
+    return 0;
     });
 
   return (
@@ -31,7 +33,7 @@ const ProductList = () => {
         setSort={setSort} 
       />
       <div className="product-list">
-        {filteredProducts.map(product => (
+        {sortedProducts.map(product => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>

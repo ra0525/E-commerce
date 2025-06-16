@@ -47,15 +47,6 @@ const ProductDetails = () => {
         </button>
 
         <div className="section">
-          {/* <h3>Specifications</h3> */}
-          {/* <ul>
-            {product.specifications &&
-              Object.entries(product.specifications).map(([key, value]) => (
-                <li key={key}>
-                  <strong>{key}</strong> {value}
-                </li>
-              ))}
-          </ul> */}
           <table className="spec-table">
             <tbody>
               {Object.entries(product.specifications).map(([key, value]) => (
@@ -77,12 +68,21 @@ const ProductDetails = () => {
           </ul>
         </div>
 
-        {/* <button
-          className="add-to-cart-btn"
-          onClick={() => addToCart(product)}
-        >
-          Add to Cart
-        </button> */}
+        <div className="section">
+          <h1>Product Information</h1>
+          <h2>Technical Details</h2>
+          <table className="tech-details-table">
+            <tbody>
+              {Object.entries(product.technicalDetails).map(([key, value], index) => (
+                <tr key={index}>
+                  <td className="tech-key">{key}</td>
+                  <td className="tech-value">{value}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
       </div>
     </div>
   );

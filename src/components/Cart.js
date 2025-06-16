@@ -4,7 +4,7 @@ import '../styles/Cart.css';
 
 const Cart = () => {
   const { cartItems, increaseQuantity, decreaseQuantity, removeFromCart, getTotalPrice } = useCart();
-
+  
   return (
     <div className="cart-container">
       <h2>Your Cart</h2>
@@ -27,7 +27,7 @@ const Cart = () => {
               </div>
             </div>
           ))}
-          <h3>Total Price: ₹{getTotalPrice()}</h3>
+          <h2>Total Price: ₹{getTotalPrice()}</h2>
         </>
       )}
     </div>

@@ -8,12 +8,15 @@ const FilterSortBar = ({ category, setCategory, sort, setSort }) => {
         <option value="All">All Categories</option>
         <option value="Mobiles">Mobiles</option>
         <option value="Electronics">Electronics</option>
+        <option value="Home and Kitchen">Home and Kitchen</option>
       </select>
 
       <select value={sort} onChange={e => setSort(e.target.value)}>
         <option value="">Sort By</option>
-        <option value="price">Price (Low to High)</option>
+        <option value="lowToHigh">Price (Low to High)</option>
+        <option value="highToLow">Price (High to Low)</option>
         <option value="rating">Rating (High to Low)</option>
+        <option value="ratinglowtohigh">Rating (Low to High)</option>
       </select>
     </div>
   );

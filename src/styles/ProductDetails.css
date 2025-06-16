@@ -16,16 +16,17 @@
 .thumbnail-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 .thumbnail {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 70px;
   object-fit: cover;
   border: 2px solid transparent;
   cursor: pointer;
   transition: border 0.3s;
+  border-radius: 10px;
 }
 
 .thumbnail.active,
@@ -56,27 +57,19 @@
 }
 
 .details-section h2 {
-  font-size: 24px;
+  font-size: 33px;
   margin-bottom: 10px;
 }
 
 .price {
-  font-size: 25px;
+  font-size: 28px;
   color: black;
   margin: 10px 0;
 }
 
-/* .specifications, .about-item {
-  margin: 20px 0;
-}
-
-.specifications ul, .about-item ul {
-  list-style-type: disc;
-  padding-left: 20px;
-} */
-
 .section {
-  margin-bottom: 25px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .spec-table {
@@ -87,27 +80,31 @@
 
 .spec-table td {
   padding: 8px;
-  /* border-bottom: 1px solid #ddd; */
 }
 
 .spec-key {
   font-weight: bold;
+  font-size: 17px;
   width: 250px;
   color: black;
 }
 
 .spec-value {
+  font-size: 17px;
   color: black;
 }
 
 .about-list {
   list-style: disc;
   padding-left: 18px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #ddd;
 }
 
 .about-list li {
-  line-height: 25px;
+  line-height: 30px;
   text-align: justify;
+  font-size: 18px;
 }
 
 .add-to-cart-btn {
@@ -115,7 +112,7 @@
   background-color: #ffa41c;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
 }
@@ -128,4 +125,33 @@
   display: flex;
   gap: 4px;
   margin: 5px 0 10px;
+}
+
+.tech-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tech-details-table td {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 12px;
+  vertical-align: top;
+}
+
+.tech-key {
+  font-weight: bold;
+  background-color: #f9f9f9;
+  width: 40%;
+  font-size: 17px;
+  border-left: none; /* Remove left border */
+  border-right: none; /* Remove right border */
+}
+
+.tech-value {
+  width: 60%;
+  font-size: 17px;
+  border-left: none; /* Remove left border */
+  border-right: none; /* Remove right border */
 }
