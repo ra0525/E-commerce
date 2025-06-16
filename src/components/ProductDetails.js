@@ -70,7 +70,7 @@ const ProductDetails = () => {
 
         <div className="section">
           <h1>Product Information</h1>
-          <h2>Technical Details</h2>
+          <h3>Technical Details</h3>
           <table className="tech-details-table">
             <tbody>
               {Object.entries(product.technicalDetails).map(([key, value], index) => (
