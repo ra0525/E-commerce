@@ -14,10 +14,12 @@ const ProductDetails = () => {
 
   if (!product) return <div>Product not found</div>;
 
+  const isScrollable = product.images.length > 6;
+
   return (
     <div className="product-details-container">
       <div className="image-section">
-        <div className="thumbnail-list">
+        <div className={`thumbnail-list ${isScrollable ? "scrollable" : ""}`}>
           {product.images.map((img, index) => (
             <img
               key={index}
