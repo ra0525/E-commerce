@@ -10,6 +10,8 @@ const FilterSortBar = ({ category, setCategory, sort, setSort }) => {
         <option value="Electronics">Electronics</option>
         <option value="Home and Kitchen">Home and Kitchen</option>
         <option value="Smart Watches">Smart Watches</option>
+        <option value="Video Games">Video Games</option>
+        <option value="Computers and Accessories">Computers and Accessories</option>
       </select>
 
       <select value={sort} onChange={e => setSort(e.target.value)}>

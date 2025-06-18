@@ -416,6 +416,219 @@ const products = [
       "Total USB ports": "2",
       "Mounting Type": "Wall Mount & Table Mount"
     }
+  },
+  {
+    id: 8,
+    name: "Sony PlayStation5 Gaming Console (Slim)",
+    price: 54990,
+    rating: 4.5,
+    category: "Video Games",
+    image: "https://m.media-amazon.com/images/I/51ljnEaW0pL._SL1000_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/51ljnEaW0pL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51Ex3GcYMIL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51MM-dYFYSL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/610BepGbvOL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61fp4Tk+cxL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61C2SciguhL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/518sUPz1F4L._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51fE7ZOnYnL._SL1000_.jpg"
+    ],
+    specifications: {
+      "Brand": "Sony",
+      "Item model number": "CFI-2008A01X",
+      "Product Dimensions": "16.9 x 43.1 x 35.9 cm; 4.9 kg"
+    },
+    description: [
+      "Slim Design: With PS5, players get powerful gaming technology packed inside a sleek and compact console design. 1TB of Storage: Keep your favorite games ready and waiting for you to jump in and play with 1TB of SSD storage built in. Ultra-High Speed SSD: Maximize your play sessions with near instant load times for installed PS5 games.",
+      "Integrated I/O: The custom integration of the PS5 console's systems lets creators pull data from the SSD so quickly that they can design games in ways never before possible. Ray Tracing: Immerse yourself in worlds with a new level of realism as rays of light are individually simulated, creating true-to-life shadows and reflections in supported PS5 games. 4K-TV Gaming: Play your favorite PS5 games on your stunning 4K TV.",
+      "Up to 120fps with 120Hz output: Enjoy smooth and fluid high frame rate gameplay at up to 120fps for compatible games, with support for 120Hz output on 4K displays. HDR Technology: With an HDR TV, supported PS5 games display an unbelievably vibrant and lifelike range of colors. Tempest 3D AudioTech: Immerse yourself in soundscapes where it feels as if the sound comes from every direction. Your surroundings truly come alive with Tempest 3D AudioTech in supported games.",
+      "Haptic Feedback: Experience haptic feedback via the DualSense wireless controller in select PS5 titles and feel the effects and impact of your in-game actions through dynamic sensory feedback. Adaptive Triggers: Get to grips with immersive adaptive triggers, featuring dynamic resistance levels which simulate the physical impact of in-game activities in select PS5 games.",
+      "Includes ASTRO'S: Playroom Explore four worlds, each one showcasing innovative gameplay using the versatile features of the DualSense wireless controller, in this game included for all PS5 console users.",
+    ],
+    technicalDetails: {
+      "Brand": "Sony",
+      "Language": "English",
+      "ASIN": "B0CY5HVDS2",
+      "Item model number": "CFI-2008A01X",
+      "Item Weight": "4 kg 900 g",
+      "Item Dimensions LxWxH": "16.9 x 43.1 x 35.9 Centimeters",
+      "Net Quantity": "1 Count",
+      "Generic Name": "PLAYSTATION 5 CONSOLE D CHASSIS",
+      "Importer": "A-18, Mohan Co-operative Industrial Estate, Mathura Road, New Delhi-110044",
+      "Manufacturer" : "Sony, Made in China by Sony Interactive Entertainment Europe 1-7-1 Konan Minato-ku Tokyo, 108-0075 Japan, Sony India Pvt. Ltd.",
+      "Country of Origin": "China"
+    }
+  },
+  {
+    id: 9,
+    name: "Sony PlayStation VR2 (PlayStation 5)",
+    price: 42990,
+    rating: 4.1,
+    category: "Video Games",
+    image: "https://m.media-amazon.com/images/I/61wNsoxIa5L._SX679_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/61wNsoxIa5L._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/610hV+0JVqL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/61B7KwmFSPL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/61i1jm-RdZL._SX679_.jpg"
+    ],
+    specifications: {
+      "Brand": "Sony",
+      "Product Dimensions": "27.8 x 21.2 x 15.8 cm; 560 g"
+    },
+    description: [
+      "CUTTING-EDGE PERFORMANCE: Enjoy 4K HDR visuals4, a 110º field of view and advanced graphical rendering.",
+      "PLAYSTATION VR2 SENSE TECHNOLOGY: Feel real sensations and emotions with eye tracking, headset feedback, 3D Audio and highly intuitive controls.",
+      "QUICK SETUP: Jump straight into the action with a simple one-cable connection to your PS5 console.",
+      "THRILLING NEW WORLDS: Surround yourself in a new generation of genre-defining VR games.",
+      "4K HDR DISPLAY: Feast your eyes on vibrant, super-sharp 4K High Dynamic Range visuals4 that bring breathtaking virtual reality environments into clear focus. Revel in imagery of superior quality as two 2000 x 2040 OLED displays deliver over four times the resolution generated by the original PlayStation VR headset for a comfortably smooth visual experience at up to 120fps.",
+      "INSIDE-OUT TRACKING: Play with freedom and experience different VR play styles, as PlayStation VR2 tracks you and your controllers through four cameras embedded in the headset.Your movements and what you look at is reflected in-game, without the need for an external camera.",
+      "EYE TRACKING: Discover rich emotional experiences as you interact with the game world and other players. Eye tracking cameras detect when your eyes are open and track their movements and the emotions they convey – which can be reflected through in-game situations. When combined with your headset and controllers’ positions and actions, this allows you to fully express yourself and communicate with others in online multiplayer in exciting new ways. Eye tracking also follows your line of sight when aiming or looking around, and advanced foveated rendering techniques improve the visual experience by adjusting resolutions to pinpoint and enhance whatever you’re focusing on.",
+      "HEADSET FEEDBACK: Feel subtle, responsive headset vibrations at key moments during gameplay. Created by a single built-in motor, these vibrations add an intelligent tactile element to the sensory immersion experienced as you play. Detect your character’s elevated pulse during tense moments, the whoosh of objects passing close to your head, or the thrust of your vehicle as you speed forward.",
+      "TEMPEST 3D AUDIOTECH: Pinpoint where noises are coming from to experience enhanced, realistic soundscapes, as the audio dynamically adapts to your position and head movements.1 Sense a character’s presence as they whisper in your ear, locate friends and enemies by their gunfire or footfall, and experience the creeping dread of a threat approaching from any direction.",
+      "OPTIMIZED OPTICS: Enjoy comfortable play sessions through a vast 110º field of view and a light, well-balanced Fresnel lens. The lens adjustment dial allows you to customize spacing between lenses to match your eye position for an optimal onscreen image."
+
+    ],
+    technicalDetails: {
+      "Brand": "Sony",
+      "Language": "English",
+      "Batteries": "1 Lithium Ion batteries required. (included)",
+      "ASIN": "B0CPFLL79T",
+      "Item Weight": "560 g",
+      "Item Dimensions": "27.8 x 21.2 x 15.8 Centimeters",
+      "Net Quantity": "1 Count",
+      "Included Components": "Cable",
+      "Generic Name": "PlayStation®VR2",
+      "Importer": "Sony India Pvt.Ltd. A-18, Mohan Co-operative Ind. Estate, Mathura road, New Delhi - 110044 India.",
+      "Manufacturer" : "SONY, Sony Interactive Entertainment Europe LTD. 1-7-1 Konan Minato -Ku, Tokyo 108-0075. JAPAN",
+      "Country of Origin": "China"
+    }
+  },
+  {
+    id: 10,
+    name: "HP OMEN Gaming, 13th Gen Intel Core i7-13620H, 8GB NVIDIA RTX 4060, 16GB DDR5, 1TB SSD, 16.1-inch(40.9cm), 144Hz, IPS, FHD Gaming Laptop, RGB Backlit KB, B&O(Win 11, Office 21, Black, 2.35kg) wd0012TX",
+    price: 115000,
+    rating: 3.8,
+    category: "Computers and Accessories",
+    image: "https://m.media-amazon.com/images/I/71GkguiOz1L._SX679_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/71GkguiOz1L._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81zGa-EDauL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81C2uoQ-b8L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/8190tFD0B8L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/819+8RXa7JL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81UPVS+zVmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71CB+vcr2sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/716H6LwXnFL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71E6K+XlHXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71-7eYo3ZeL._SL1500_.jpg"
+    ],
+    specifications: {
+      "Brand": "HP",
+      "Model Name": "16-wd0012tx",
+      "Screen Size": "40.9 Centimetres",
+      "Colour": "Black",
+      "Hard Disk Size": "1 TB",
+      "CPU Model": "Intel Core i7",
+      "RAM Memory Installed Size": "16 GB",
+      "Operating System": "Windows 11 Home",
+      "Special Feature": "Anti Glare Screen, Micro Edge Display",
+      "Graphics Card Description": "Dedicated"
+    },
+    description: [
+      "【10-core 13th Gen Intel Core i7-13620H】Dominate the gaming world with 16 threads and a 24MB L3 cache for swift processing. Its cooling system keeps the heat at bay during intense gaming sessions.",
+      "【8GB NVIDIA GeForce RTX 4060 Laptop GPU】Experience immersive gaming with enhanced 3D rendering and efficient data processing with a dedicated GPU.",
+      "【High-speed memory and storage】16GB DDR5 RAM and 1TB PCIe Gen4 NVMe SSD offer swift data access, quick load times, and lag-free gaming.",
+      "【Popular games】Play all your favorite games like Counterstrike, Call of Duty, GTA V, Cyberpunk 2077, World of Warcraft, Minecraft, The Witcher 3, God of War 4, FIFA 23, Gotham Knights, and more.",
+      "【Micro-edge FHD display】The 16.1-inch FHD, micro-edge display offers vivid visuals and a seamless gaming experience with a rapid 144Hz refresh rate and anti-glare panel.",
+      "【Seamless connectivity】Stay connected with Wi-Fi (2x2) and Bluetooth 5.3 wireless card, along with a variety of ports including 1 x USB Type-C, 3 x USB Type-A, 1 x HDMI 2.1, and 1 x RJ-45.",
+      "【Long-lasting battery】Enjoy extended gaming sessions with a 6-cell, 83 Wh battery. HP Fast Charge support gets you back in the game quickly with up to 50% charge in 30 minutes.",
+      "【Collaborative gaming】The HP True Vision 1080p FHD camera with integrated dual array digital microphones, temporal noise reduction, and audio by B&O enhances your team gaming sessions.",
+      "【Sustainable choice】Make an eco-friendly choice with a laptop made from ocean-bound plastic. The laptop is also EPEAT registered and ENERGY STAR certified."
+    ],
+    technicalDetails: {
+      "Brand": "HP",
+      "Series": "16-wd0012tx",
+      "Colour":	"Black",
+      "Form Factor": "Netbook",
+      "Standing screen display size": "40.9 Centimetres",
+      "Screen Resolution": "1920 x 1080 pixels",
+      "Resolution": "1920x1080 (full hd)",
+      "Package Dimensions": "59.79 x 35.6 x 6.9 cm;",
+      "Item Weight": "2 kg 350 g",
+      "Batteries": "1 Lithium Ion batteries required. (included)",
+      "Item model number": "16-wd0012tx",
+      "Processor Brand": "Intel",
+      "Processor Type": "Intel Core i7",
+      "Processor Speed": "4.9 GHz",
+      "Processor Count": "1",
+      "RAM Size": "16",
+      "Memory Technology": "DDR5",
+      "Computer Memory Type": "DDR5 RAM",
+      "Maximum Memory Supported": "16 GB",
+      "Hard Drive Size": "1 TB",
+      "Hard Disk Description": "SSD",
+      "Hard Drive Interface": "Solid State",
+      "Audio Details": "Headphones",
+      "Graphics Coprocessor": "NVIDIA GeForce RTX 4060",
+      "Graphics Chipset Brand": "Intel",
+      "Graphics Card Description": "Dedicated",
+      "Graphics RAM Type": "GDDR6",
+      "Graphics Card Ram Size": "8 GB",
+      "Graphics Card Interface": "Integrated",
+      "Connectivity Type": "Bluetooth, Wi-Fi",
+      "Wireless Type": "Bluetooth",
+      "Number of HDMI Ports": "1",
+      "Voltage": "230 Volts",
+      "Wattage": "83 Watts",
+      "Operating System": "Windows 11 Home",
+      "Average Battery Life (in hours)": "6 Hours",
+      "Are Batteries Included": "Yes",
+      "Lithium Battery Energy Content": "83 Watt Hours",
+      "Number of Lithium Ion Cells": "6",
+      "Included Components": "Laptop, Charger, User Manual",
+      "Manufacturer":	"HP, HP India Sales Pvt. Ltd.",
+      "Country of Origin": "China"
+    }
+  },
+  {
+    id: 11,
+    name: "Sony Dualsense Edge Wireless Controller (Playstation 5)",
+    price: 15990,
+    rating: 4.2,
+    category: "Video Games",
+    image: "https://m.media-amazon.com/images/I/51qcJKGmDXL._SX679_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/51qcJKGmDXL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/41Ymf3nFY5L._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/41srqfsQhxL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/41T0xrtk6rL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51GPzwwV-DL._SL1000_.jpg"
+    ],
+    specifications: {
+      "Brand": "Sony",
+      "Product Dimensions": "6.9 x 18.8 x 18.9 cm;"
+    },
+    description: [
+      "Changeable stick caps, remappable inputs and custom settings make your DualSense Edge wireless controller uniquely yours. Fine tune your aim by adjusting stick sensitivity and dead zones, set the travel distance of your triggers for faster inputs, and quickly swap between control profiles so you’re always ready for your next game.",
+      "Swappable back buttons can be configured to any other button input, so you’ve always got game-changing actions and essential controls at your fingertips. Plus, with two different styles of button to choose from, you can pick an input type that feels just right for your playstyle.",
+      "Enjoy all the immersive features of the DualSense wireless controller and our signature controller comfort. Experience varying force and tension at your fingertips with adaptive triggers, and feel your in-game actions and environment simulated through haptic feedback.",
+      "Play for longer with swappable replacement stick modules available to purchase separately. *Haptic feedback and adaptive trigger features available when supported by game.",
+      "Item Width: 188.0 MM; Item Length: 69.0 MM; Item Height: 189.0 MM"
+    ],
+    technicalDetails: {
+      "Brand": "Sony",
+      "Language": "English",
+      "Batteries": "1 Lithium Ion batteries required. (included)",
+      "Item Weight": "500 g",
+      "Item Dimensions": "6.9 x 18.8 x 18.9 Centimeters",
+      "Net Quantity": "1 Count",
+      "Generic Name": "PS5 Controller",
+      "Importer": "Sony India Pvt. Ltd., A-18, Mohan Co-operative Industrial Estate, Mathura Road, New Delhi-44",
+      "Manufacturer" : "SONY, Made in China by Sony Computer Entertainment Inc., 1-7-1 Konan Minato-ku Tokyo, 108-0075 Japan",
+      "Country of Origin": "China"
+    }
   }
 ];
 
