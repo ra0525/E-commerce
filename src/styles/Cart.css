@@ -34,3 +34,35 @@
   cursor: pointer;
   margin: 8px 7px;
 }
+
+.place-order-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.place-order-button {
+  background-color: #ff9900;
+  color: black;
+  padding: 12px 400px;
+  border: none;
+  border-radius: 70px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.place-order-button:hover {
+  background-color: #e68a00;
+}
+
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart-item-image {
+    width: 70%;
+  }
+}

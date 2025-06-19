@@ -2,8 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/ProductCard.css';
 import StarRating from './StarRating';
+import { useWishlist } from './WishlistContext';
 
 const ProductCard = ({ product }) => {
+  const { addToWishlist } = useWishlist();
+
   return (
     <div className="product-card">
       <Link to={`/product/${product.id}`}>
@@ -14,6 +17,7 @@ const ProductCard = ({ product }) => {
       <div className="rating-center">
         <StarRating rating={product.rating} size= {18} />
       </div>
+      <button className="add-to-wishlist-btn" onClick={() => addToWishlist(product)}>Add to Wishlist</button>
     </div>
   );
 };

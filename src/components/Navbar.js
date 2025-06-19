@@ -26,7 +26,6 @@ const Navbar = () => {
         </Link>
       </div>
       <LoginSignupModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
-      {/* {showModal && <LoginSignupModal onClose={() => setShowModal(false)} />} */}
     </nav>
   );
 

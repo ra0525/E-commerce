@@ -7,10 +7,6 @@
   color: white;
 }
 
-/* .navbar-section {
-  flex: 1;
-} */
-
 .navbar-section.center {
   text-align: center;
 }
@@ -79,3 +75,17 @@
   box-shadow: 0 0 1px 2px white;
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-section.left,
+  .navbar-section.center,
+  .navbar-section.right {
+    text-align: center;
+    width: 100%;
+    margin: 5px 0;
+  }
+}

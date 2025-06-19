@@ -7,23 +7,30 @@ import Cart from './components/Cart';
 import { CartProvider } from './components/CartContext';
 import Footer from './components/Footer';
 import './App.css';
+import { WishlistProvider } from './components/WishlistContext';
+import Wishlist from './components/Wishlist';
 
 const App = () => {
   return (
     <CartProvider>
-      <Router>
-        <div className="app-container">
-          <Navbar />
-          <div className="content-wrap">
-            <Routes>
-              <Route path="/" element={<ProductList />} />
-              <Route path="/product/:id" element={<ProductDetails />} />
-              <Route path="/cart" element={<Cart />} />
-            </Routes>
+      <WishlistProvider>
+        <Router>
+          <div className="app-container">
+            <Navbar />
+            {/* <HeroBanner /> */}
+            <div className="content-wrap">
+              {/* <HeroBanner /> */}
+              <Routes>
+                <Route path="/" element={<ProductList />} />
+                <Route path="/product/:id" element={<ProductDetails />} />
+                <Route path="/cart" element={<Cart />} />
+                <Route path="/wishlist" element={<Wishlist />} />
+              </Routes>
+            </div>
+            <Footer />
           </div>
-          <Footer />
-        </div>
-      </Router>
+        </Router>
+      </WishlistProvider>
     </CartProvider>
   );
 };

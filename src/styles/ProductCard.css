@@ -33,8 +33,13 @@
   margin: 5px 0;
 }
 
-/* .star-rating {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-} */
+.add-to-wishlist-btn{
+  padding: 10px 10px;
+  background-color: #ffa41c;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}

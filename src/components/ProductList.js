@@ -3,6 +3,7 @@ import products from '../data/productsData';
 import ProductCard from './ProductCard';
 import SearchBar from './SearchBar';
 import FilterSortBar from './FilterSortBar';
+import HeroBanner from './HeroBanner';
 import '../styles/ProductList.css';
 
 const ProductList = () => {
@@ -32,6 +33,7 @@ const ProductList = () => {
         sort={sort} 
         setSort={setSort} 
       />
+      <HeroBanner />
       <div className="product-list">
         {sortedProducts.map(product => (
           <ProductCard key={product.id} product={product} />

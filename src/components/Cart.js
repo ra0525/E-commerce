@@ -28,6 +28,9 @@ const Cart = () => {
             </div>
           ))}
           <h2>Total Price: ₹{getTotalPrice()}</h2>
+          <div className="place-order-container">
+            <button className="place-order-button">Place Order</button>
+          </div>
         </>
       )}
     </div>

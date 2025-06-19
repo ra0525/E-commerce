@@ -4,13 +4,14 @@ import productsData from "../data/productsData";
 import "../styles/ProductDetails.css";
 import { useCart } from "./CartContext";
 import StarRating from './StarRating';
+import { useWishlist } from './WishlistContext';
 
 const ProductDetails = () => {
   const { id } = useParams();
   const product = productsData.find((item) => item.id === parseInt(id));
   const [selectedImage, setSelectedImage] = useState(product.images[0]);
   const { addToCart } = useCart();
-  // const { addToCart } = useContext(CartContext);
+  const { addToWishlist } = useWishlist();
 
   if (!product) return <div>Product not found</div>;
 
@@ -41,12 +42,11 @@ const ProductDetails = () => {
         <p className="price">₹{product.price}</p>
         <StarRating rating={product.rating} />
 
-        <button
-          className="add-to-cart-btn"
-          onClick={() => addToCart(product)}
-        >
+        <button className="add-to-cart-btn" onClick={() => addToCart(product)}>
           Add to Cart
         </button>
+
+        <button className="add-to-cart-btn" onClick={() => addToWishlist(product)}>Add to Wishlist</button>
 
         <div className="section">
           <table className="spec-table">
