@@ -9,22 +9,24 @@ import Footer from './components/Footer';
 import './App.css';
 import { WishlistProvider } from './components/WishlistContext';
 import Wishlist from './components/Wishlist';
+import Checkout from './components/Checkout';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
     <CartProvider>
       <WishlistProvider>
         <Router>
+          <ScrollToTop />
           <div className="app-container">
             <Navbar />
-            {/* <HeroBanner /> */}
             <div className="content-wrap">
-              {/* <HeroBanner /> */}
               <Routes>
                 <Route path="/" element={<ProductList />} />
                 <Route path="/product/:id" element={<ProductDetails />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/wishlist" element={<Wishlist />} />
+                <Route path="/checkout" element={<Checkout />} />
               </Routes>
             </div>
             <Footer />

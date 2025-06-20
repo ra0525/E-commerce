@@ -1,6 +1,7 @@
 import React from 'react';
 import { useCart } from './CartContext';
 import '../styles/Cart.css';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const { cartItems, increaseQuantity, decreaseQuantity, removeFromCart, getTotalPrice } = useCart();
@@ -29,7 +30,9 @@ const Cart = () => {
           ))}
           <h2>Total Price: ₹{getTotalPrice()}</h2>
           <div className="place-order-container">
-            <button className="proceed-button">Proceed to Chekout</button>
+            <Link to="/checkout">
+              <button className="proceed-button">Proceed to Checkout</button>
+            </Link>
           </div>
         </>
       )}

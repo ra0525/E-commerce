@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import '../styles/HeroBanner.css';
 
 const bannerImages = [
-  'https://www.shutterstock.com/shutterstock/photos/2056851839/display_1500/stock-vector--d-yellow-great-discount-sale-background-illustration-of-large-sale-word-with-shopping-cart-gift-2056851839.jpg',
-  'https://th.bing.com/th/id/OIG4.YEQ2mR1qlFsXY0vuZyb3?w=1024&h=1024&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
-  // 'https://lh3.googleusercontent.com/gg-dl/AJfQ9KSyNO4qzkItyG_kdK_GQ3gk7BnxD5r7-QsM_ehiZzR4a82GQc73Ohwkd5HRsdMKFlyDpJcKJMaNFrN8oVhhjcmwqjkh2Jfk68dKqnE0KbLi4uHINS8wtYXNwYctTIpJOC0mtfSBVQNKQLfSf6XJImUY04ST7kvgLPDENqxehUummwrC=s1024',
+  'https://t3.ftcdn.net/jpg/11/71/86/44/240_F_1171864429_maxllHmtJcykhBwF4hZviADOlHgxDSpG.jpg',
+  'https://t4.ftcdn.net/jpg/09/37/27/43/240_F_937274351_a72mEbYugYCOGTClHADF6X4OW2ysF8rc.jpg',
+  'https://t4.ftcdn.net/jpg/03/15/69/63/240_F_315696377_HRmVCZMxQ2y33Nnd8aHxyJBMuP3HcR1j.jpg',
+  'https://t3.ftcdn.net/jpg/12/69/40/34/240_F_1269403499_YZoCeCMNO0GaG0RpjeXLWzbc8HUmusri.jpg',
 ];
 
 const HeroBanner = () => {
