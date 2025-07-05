@@ -2,6 +2,7 @@
 
 ## **Overview**
 This E-commerce website is a modern, fully responsive online shopping platform built with React.js. It showcases a wide range of products with detailed pages, image zoom, and multiple thumbnails. The app includes powerful features such as smart search, category filtering, sorting, a dynamic shopping cart with quantity management, wishlist functionality, and a streamlined checkout process integrated with Stripe for secure payments. Designed with clean, component-based architecture and modern CSS styling, the project delivers a realistic shopping experience suitable for learning, demo, or as a foundation for a real-world e-commerce application.
+--- 
 
 ## **Features**
 
@@ -16,6 +17,7 @@ This E-commerce website is a modern, fully responsive online shopping platform b
 ✅ Login/Signup pages  
 ✅ Hero banner slider & footer with payment logos  
 ✅ Fully responsive design
+---
 
 ## **Tech Stack**
 - **Frontend:** React.js, CSS
