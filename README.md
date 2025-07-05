@@ -3,7 +3,7 @@
 ## **Overview**
 This E-commerce website is a modern, fully responsive online shopping platform built with React.js. It showcases a wide range of products with detailed pages, image zoom, and multiple thumbnails. The app includes powerful features such as smart search, category filtering, sorting, a dynamic shopping cart with quantity management, wishlist functionality, and a streamlined checkout process integrated with Stripe for secure payments. Designed with clean, component-based architecture and modern CSS styling, the project delivers a realistic shopping experience suitable for learning, demo, or as a foundation for a real-world e-commerce application.
 
-## **✨ Features**
+## ✨ ** Features**
 
 ✅ Modern UI similar to Amazon/Flipkart  
 ✅ Product listing & detailed product page  
@@ -23,7 +23,7 @@ This E-commerce website is a modern, fully responsive online shopping platform b
 - **State Management:** Context API
 - **Deployment:** (Add if deployed, e.g., Netlify, Vercel, Render)
 
-## **Project Structure**
+## 📂 **Project Structure**
 
 ```plaintext
 src/
@@ -63,25 +63,25 @@ src/
   index.js
 ```
 
-## **Installation**
+## 📦 **Installation**
 Make sure you have Node.js and npm installed.
 
- ```italictext
-Clone the repo
+```italictext
+# Clone the repo
 git clone https://github.com/ra0525/E-commerce.git
 
-Navigate to project directory
+# Navigate to project directory
 cd E-commerce
 
-Install dependencies
+# Install dependencies
 npm install
 
-Start the development server
+# Start the development server
 npm start
 ```
 The app will run at: http://localhost:3000
 
-## Usage
+## ▶️ Usage
 + Browse products and click to see details.
 + Add/remove items from cart or wishlist.
 + Update quantity in cart.
@@ -89,6 +89,6 @@ The app will run at: http://localhost:3000
 + Proceed to checkout, fill billing details & pay via Stripe.
 + Login/Signup to manage your account.
 
-## Links
+## 🌐 Links
 **GitHub Repo:** https://github.com/ra0525/E-commerce.git <br/>
 **Web link:** https://rishabhecommerce.netlify.app/
