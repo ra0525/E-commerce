@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<h1 align="center"> E-commerce Store </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Overview**
+This E-commerce website is a modern, fully responsive online shopping platform built with React.js. It showcases a wide range of products with detailed pages, image zoom, and multiple thumbnails. The app includes powerful features such as smart search, category filtering, sorting, a dynamic shopping cart with quantity management, wishlist functionality, and a streamlined checkout process integrated with Stripe for secure payments. Designed with clean, component-based architecture and modern CSS styling, the project delivers a realistic shopping experience suitable for learning, demo, or as a foundation for a real-world e-commerce application.
 
-## Available Scripts
+## **Features**
 
-In the project directory, you can run:
+✅ Modern UI similar to Amazon/Flipkart  
+✅ Product listing & detailed product page  
+✅ Image gallery with thumbnail & zoom effect  
+✅ Search, filter by category & sort by price/best-selling  
+✅ Cart with quantity update, remove option & total price calculation  
+✅ Wishlist feature  
+✅ Checkout page with order summary  
+✅ Stripe payment gateway & billing address  
+✅ Login/Signup pages  
+✅ Hero banner slider & footer with payment logos  
+✅ Fully responsive design
 
-### `npm start`
+## **Tech Stack**
+- **Frontend:** React.js, CSS
+- **Payments:** Stripe
+- **State Management:** Context API
+- **Deployment:** (Add if deployed, e.g., Netlify, Vercel, Render)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Project Structure**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```plaintext
+src/
+  components/
+    Navbar.js
+    ProductList.js
+    ProductCard.js
+    ProductDetails.js
+    Cart.js
+    SearchBar.js
+    FilterSortBar.js
+    Wishlist.js
+    Footer.js
+    CheckoutPage.js
+    Login.js
+    Signup.js
+    HeroBanner.js
+    CartContext.js
+  data/
+    productsData.js
+  styles/
+    Navbar.css
+    ProductList.css
+    ProductCard.css
+    ProductDetails.css
+    Cart.css
+    SearchBar.css
+    FilterSortBar.css
+    Wishlist.css
+    Footer.css
+    CheckoutPage.css
+    Login.css
+    Signup.css
+    HeroBanner.css
+  App.js
+  App.css
+  index.js
+```
 
-### `npm test`
+## **Installation**
+Make sure you have Node.js and npm installed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### *Clone the repo*
+git clone https://github.com/ra0525/E-commerce.git
 
-### `npm run build`
+### *Navigate to project directory*
+cd E-commerce
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### *Install dependencies*
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### *Start the development server*
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will run at: http://localhost:3000
 
-### `npm run eject`
+## Usage
++ Browse products and click to see details.
++ Add/remove items from cart or wishlist.
++ Update quantity in cart.
++ Use search, filter, and sort to find products.
++ Proceed to checkout, fill billing details & pay via Stripe.
++ Login/Signup to manage your account.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Links
+**GitHub Repo:** https://github.com/ra0525/E-commerce.git
+**Web link:** https://rishabhecommerce.netlify.app/
