@@ -15,7 +15,7 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
         onChange={e => setSearchTerm(e.target.value)} 
       />
       <Link to="/wishlist" className="navbar-link">
-          <FaHeart className="wishlist-icon" /> Wishlist ({getTotalWishlistItems()})
+        <FaHeart className="wishlist-icon" /> Wishlist ({getTotalWishlistItems()})
       </Link>
     </div>
   );
