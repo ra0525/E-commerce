@@ -13,6 +13,10 @@
 }
 
 @media (max-width: 480px) {
+  .search-bar {
+    width: 20px;
+  }
+
   .navbar-link {
   font-size: 12px;
   }
