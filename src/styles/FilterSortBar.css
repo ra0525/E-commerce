@@ -10,3 +10,15 @@
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+@media (max-width: 768px) {
+  .filter-sort-bar select {
+    width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-sort-bar select {
+    width: 110px;
+  }
+}
