@@ -14,10 +14,10 @@
 
 @media (max-width: 480px) {
   .search-bar input {
-    width: 40px;
+    width: 160px;
   }
 
   .navbar-link {
-  font-size: 12px;
+  font-size: 13px;
   }
 }
