@@ -11,7 +11,9 @@
   border-radius: 8px;
   font-size: 18px;
 }
-/* 
-.navbar-link {
-  font-size: 52px;
-} */
+
+@media (max-width: 480px) {
+  .navbar-link {
+  font-size: 15px;
+  }
+}
