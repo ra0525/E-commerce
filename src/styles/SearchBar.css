@@ -13,8 +13,8 @@
 }
 
 @media (max-width: 480px) {
-  .search-bar {
-    width: 20px;
+  .search-bar input {
+    width: 40px;
   }
 
   .navbar-link {
